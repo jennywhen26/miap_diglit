@@ -1,22 +1,20 @@
 # The touch Command
 
 ## Summary 
-The `touch` command allows 
+The `touch` command serves two main functions: create an empty file or modify file timestamps.
 
 ## Basic command structure
-For all descriptions below, the dollar sign indicates that BASH command prompt.
+For all descriptions below, the dollar sign indicates the BASH command prompt.
 
-$ `touch [options] [directory path]`
-
-Note: If you do not specify a directory path, running `ls` will show you the contents of the current directory you are in within your terminal window, i.e., your current working directory.
+$ `touch [filename].[file-extension] [optional flags]`
 
 ## Possible Flags
 
 ### `-a`
-The `-a` flag shows files that are normally hidden by BASH. These are files that begin with a `.` such as [.DS_Store](https://en.wikipedia.org/wiki/.DS_Store), [.bashrc](https://en.wikipedia.org/wiki/Bash_(Unix_shell)#Startup_scripts), or .bash_history.
+The `-a` flag 
 
-### `-l`
-The `-l` flag gives a column view of files and directories. It also gives information about those files and directories including permissions, last date modified and size.
+### `-m`
+The `-m` flag gives a column view of files and directories. It also gives information about those files and directories including permissions, last date modified and size.
 
 ### `-h`
 When used in combination with the `-l` flag, the `-h` flag displays file size in human-readable units such as kilobytes, megabytes, and gigabytes.
