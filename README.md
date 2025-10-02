@@ -27,7 +27,7 @@ Welcome to the practice repository!
 8. Hack away on your local computer! Add some text, images, URLs, code snippets to the .md file to describing your command in BASH.
 9. Save your new .md file.
 10. Commit your changes.
-11. If you are working on your local computer, push your chages to GitHub.com
+11. If you are working on your local computer, push your changes to GitHub.com
 12. Submit a pull request.
 
 ## Checking the Results
